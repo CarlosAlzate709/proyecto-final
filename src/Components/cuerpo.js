@@ -11,7 +11,7 @@ const Cuerpo = () =>{
             </div>
 
             <div class="flex">
-                <Reactplayer width="450px" height="1200px" class="video" url={video} autoplay loop mute></Reactplayer>
+                <Reactplayer width="450px" height="1200px" class="video" url={video} controls></Reactplayer>
                 <div class="foto1"></div>
                 <div class="foto2"></div>
                 <div class="foto3"></div>
