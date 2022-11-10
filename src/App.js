@@ -1,23 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Index';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Index';
-import Events from './pages/Events';
-import AnnualReport from './pages/Annual';
+import Navbar from './Components/navbar';
+import Cuerpo from './Components/cuerpo';
+import Footer from './Components/Footer';
+import styles from './Components/css/index.css';
 
-  
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path='/index' exact component={Home} />
-        <Route path='/events' component={Events} />
-        <Route path='/AnnualReport' component={AnnualReport} />
-      </Routes>
-    </Router>
+    <>
+      <Navbar></Navbar>
+      <Cuerpo></Cuerpo>
+      <Footer></Footer>
+    </>
   );
 }
-  
+
 export default App;
