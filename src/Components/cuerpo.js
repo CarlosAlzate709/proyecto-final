@@ -4,7 +4,7 @@ import video from './images/video.mp4';
 
 const Cuerpo = () =>{
     return (
-        <>
+        <div id="Coleccion">
             <div class="h-auto mb-2 bg-dark">
                 <div class="Banner"></div>
                 <div class="tituloBan lead p-3 mb-2 bg-dark text-white h-auto">Coleccion Noviembre 2022 </div>
@@ -20,12 +20,8 @@ const Cuerpo = () =>{
                 <div class="foto6"></div>
             </div>
             <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-        </>
+            <br></br>  
+        </div>
 
     );
 }

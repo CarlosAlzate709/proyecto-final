@@ -1,18 +1,23 @@
-import React from 'react';
 import './App.css';
-import Navbar from './Components/navbar';
+import BarraNav from './Components/BarraNav';
 import Cuerpo from './Components/cuerpo';
 import Footer from './Components/Footer';
+import Catalogo from './Components/Catalogo';
 import styles from './Components/css/index.css';
+
+
+
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Cuerpo></Cuerpo>
-      <Footer></Footer>
-    </>
+    <div>
+      <BarraNav/>
+      <Cuerpo/>
+      <Catalogo/>
+      <Footer/>
+    </div>
   );
 }
+
 
 export default App;
